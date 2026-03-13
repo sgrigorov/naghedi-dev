@@ -1,0 +1,4 @@
+/* Minimal base - Squarespace CSS and override.css handle styling */
+@import "tailwindcss";
+
+/* Only Tailwind utilities; no base overrides that conflict with Squarespace */

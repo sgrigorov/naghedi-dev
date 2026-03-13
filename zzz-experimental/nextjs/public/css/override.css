@@ -1,0 +1,25 @@
+/* Squarespace injects these via JS; we provide fallbacks for static export */
+:root {
+  --sqs-site-gutter: 4vw;
+  --sqs-site-max-width: 1800px;
+  --primaryButtonPadding: 12px;
+  --primary-button-padding-y: 12px;
+  --primary-button-padding-x: 20px;
+  --primary-button-stroke: 0px;
+  --secondary-button-padding-y: 12px;
+  --secondary-button-padding-x: 20px;
+  --secondary-button-stroke: 1px;
+  --tertiary-button-padding-y: 12px;
+  --tertiary-button-padding-x: 20px;
+  --tertiary-button-stroke: 1px;
+}
+body { font-family: "Source Serif 4", Georgia, serif; color: #1a1a1a; }
+.sqsrte-large { font-family: "Source Serif 4", Georgia, serif; }
+h1, h2, h3, h4 { font-family: "Source Serif 4", Georgia, serif; color: inherit; }
+#page.container {
+  padding-left: var(--sqs-site-gutter, 4vw);
+  padding-right: var(--sqs-site-gutter, 4vw);
+  max-width: var(--sqs-site-max-width, 1800px);
+  margin-left: auto;
+  margin-right: auto;
+}

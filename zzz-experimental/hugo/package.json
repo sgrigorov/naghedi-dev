@@ -1,0 +1,10 @@
+{
+  "name": "naghedi-hugo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --minify"
+  },
+  "packageManager": "pnpm@10.30.0"
+}

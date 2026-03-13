@@ -1,0 +1,22 @@
+# pnpm
+.pnpm-store/
+
+# Dependencies
+node_modules/
+
+# 11ty build output
+zzz-experimental/11ty/_site/
+
+# Hugo build output
+zzz-experimental/hugo/public/
+zzz-experimental/hugo/.hugo_build.lock
+
+# Next.js build output
+zzz-experimental/nextjs/.next/
+zzz-experimental/nextjs/out/
+
+# Next.js cache
+zzz-experimental/nextjs/.turbo/
+
+# OS
+.DS_Store
